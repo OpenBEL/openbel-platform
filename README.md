@@ -2,13 +2,12 @@
 
 The OpenBEL Platform enables the building of computable BEL networks from a collection of managed BEL evidence.
 
-### Facets
+### What is provided?
 
-- BEL Evidence store
-- Standardized biological identifiers
+- API of BEL tools
+- Storage of BEL evidence
 - Expansion of BEL knowledge through reasoning
-- Build BEL networks from BEL Evidence store
-- Read in BEL Evidence from file, Write out BEL Evidence to file
+- Build BEL networks from evidence
 
 ### Roadmap
 
