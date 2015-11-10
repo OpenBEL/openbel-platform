@@ -25,3 +25,15 @@ The OpenBEL Platform enables the building of computable BEL networks from a coll
 - Biological Expression Language, version 2.x support
 - Knowledge graph reasoning (e.g. Gene activation pathways)
 - Creation of BEL networks
+
+### Projects
+
+- [libbel](https://github.com/OpenBEL/libbel)
+  - Low-level parser for BEL expressions and BEL Script format.
+
+- [bel.rb](https://github.com/OpenBEL/bel.rb)
+  - Library to provide tools for working with BEL Evidence.
+
+- [openbel-server](https://github.com/OpenBEL/openbel-server)
+  - Web-based API that enables storage of BEL evidence and construction of BEL networks.
+
