@@ -1,3 +1,5 @@
+# Terminology
+
 <a name="bel_statement"></a>
 ### BEL Statement
 
