@@ -6,6 +6,7 @@ The OpenBEL Platform enables the building of computable BEL networks from a coll
 
 - [What is provided?][What is provided?]
 - [Terminology][Terminology]
+- [Architecture][Architecture]
 - [Projects][Projects]
 - [Roadmap][Roadmap]
 
@@ -49,5 +50,6 @@ The OpenBEL Platform enables the building of computable BEL networks from a coll
 
 [What is provided?]: #what_is_provided
 [Terminology]:       ./terminology.md
+[Architecture]:      ./architecture.md
 [Projects]:          #projects
 [Roadmap]:           #roadmap
