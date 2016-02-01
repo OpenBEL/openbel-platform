@@ -73,8 +73,8 @@ Asserted
 - Derived
   - `deg(complex(SCOMP:"Nfkb Complex")) directlyDecreases complex(SCOMP:"Nfkb Complex")`
     - The degradation of the *Nfkb Complex* directly causes a decrease in the abundance of *Nfkb Complex*.
-  - `complex(SCOMP:"Nfkb Complex") hasComponents (p(HGNC:NFKB1), p(HGNC:NFKB2), p(HGNC:REL), p(HGNC:RELA), p(HGNC:RELB), p(MGI:Nfkb1), p(MGI:Nfkb2), p(MGI:Rel), p(MGI:Rela), p(MGI:Relb), p(RGD:Nfkb1), p(RGD:Nfkb2), p(RGD:Rela))`
-    - The *HGNC:NFKB1*, *HGNC:NFKB1*, *HGNC:REL*, *HGNC:RELA*, *HGNC:RELB*, *MGI:Nfkb1*, *MGI:Nfkb2*, *MGI:Rel*, *MGI:Rela*, *MGI:Relb*, *RGD:Nfkb1*, *RGD:Nfkb2*, and *RGD:Rela* proteins are components of the *Nfkb Complex* complex.
+  - `p(MGI:Tgfb1) increases deg(complex(SCOMP:"Nfkb Complex"))`
+    - Because the mouse *Tgfb1* protein is orthologous to human *TGFB1* protein, it is expected to have a similar effect on the *Nfkb Complex*.
 
 <a name="bkn"></a>
 ### BKN - BEL Knowledge Network
