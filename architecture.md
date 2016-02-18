@@ -15,7 +15,7 @@
 ![OpenBEL Stack][OpenBEL Stack]
 
 
-[Creation of BKN]:    ./diagrams/bkn_creation.svg
+[Creation of BKN]:    https://rawgit.com/OpenBEL/openbel-platform/master/diagrams/bkn_creation.svg
 [RDF Transformation]: ./diagrams/rdf_transformation.svg
 [OpenBEL Ecosystem]:  ./diagrams/openbel_ecosystem.svg
 [OpenBEL Stack]:      ./diagrams/bel_stack.svg
