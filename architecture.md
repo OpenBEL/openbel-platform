@@ -19,3 +19,5 @@
 [RDF Transformation]: https://rawgit.com/OpenBEL/openbel-platform/master/diagrams/rdf_transformation.svg
 [OpenBEL Ecosystem]:  https://rawgit.com/OpenBEL/openbel-platform/master/diagrams/openbel_ecosystem.svg
 [OpenBEL Stack]:      https://rawgit.com/OpenBEL/openbel-platform/master/diagrams/bel_stack.svg
+
+Note: These diagrams are available as Google Docs if you'd like access to edit directly.  Please contact william dot s dot hayes at gmail for access.
