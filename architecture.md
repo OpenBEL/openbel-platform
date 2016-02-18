@@ -11,7 +11,11 @@
 ### Diagram: Ecosystem of OpenBEL
 ![OpenBEL Ecosystem][OpenBEL Ecosystem]
 
+### Diagram: OpenBEL Stack
+![OpenBEL Stack][OpenBEL Stack]
 
-[Creation of BKN]:    ./diagrams/bkn_creation_small.jpg
-[RDF Transformation]: ./diagrams/rdf_transformation_small.jpg
-[OpenBEL Ecosystem]:  ./diagrams/openbel_ecosystem_small.jpg
+
+[Creation of BKN]:    ./diagrams/bkn_creation.svg
+[RDF Transformation]: ./diagrams/rdf_transformation.svg
+[OpenBEL Ecosystem]:  ./diagrams/openbel_ecosystem.svg
+[OpenBEL Stack]:      ./diagrams/bel_stack.svg
