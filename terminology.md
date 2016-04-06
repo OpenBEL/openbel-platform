@@ -115,3 +115,6 @@ A database used to store [BEL Nanopubs][BEL Nanopubs]. It facilitates management
 [Expression]:              #expression
 [Nanopub Store]:           #bel_nanopub_store
 [BEL RDF Model]:           http://wiki.openbel.org/display/OBP/BEL+RDF+Model
+
+### BNJ - BEL Nanopub JSON file
+BNJ (pronounced 'binge') is an array of BEL Nanopubs in JSON format.  This is the most complete representation of a BEL Nanopub with associated metadata and includes namespace and annotation references.  It is also the best format for importing and exporting BEL content from the OpenBEL API (BEL Nanopub Store). 
