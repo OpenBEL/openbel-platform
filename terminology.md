@@ -1,5 +1,15 @@
 # Terminology
 
+<a name="bel"></a>
+### BEL
+
+BEL stands for Biological Expression Language.  BEL is a means of capturing biological knowledge in a manner that is human friendly and convertable into a computatable format for supporting knowledge driven analytics.  It also serves as a format to share biological knowledge using an open standard.  
+
+<a name="openbel"></a>
+### OpenBEL
+
+OpenBEL is the name for the open source effort to support BEL. It includes the open source community supporting BEL, the tooling required to support BEL and the infrastructure hosting the OpenBEL resources. 
+
 <a name="bel_statement"></a>
 ### BEL Statement
 
@@ -34,7 +44,7 @@ A Nanopub is defined by [nanopub.org][nanopub.org]. Quoting their definition:
 > 
 > Nanopublications are a natural response to the explosion of high-quality contextual information that overwhelms the capacity of conventional research articles in scholarly communication.
 
-A BEL Nanopub is an instance of a BEL Nanopub to represent biological interactions with an experimental context and provenance. A BEL Nanopub consists of the following parts:
+A BEL Nanopub is an atomic instance of BEL knowledge to represent a biological interaction or fact with an experimental context and provenance. A BEL Nanopub consists of the following parts:
 
 - Citation
   - The identification for the scientific literature where the interaction was stated.
@@ -85,7 +95,7 @@ The nodes and edges of a *BKN* can be *Equivalenced* and *Orthologized*. Review 
 
 <a name="bel_document"></a>
 ### BEL Document
-A file containing a collection of [BEL Nanopubs][BEL Nanopubs] with document metadata like Name, Description, and Version. The supported document formats are BEL script, XBEL, JSON, and RDF.
+A file containing a collection of [BEL Nanopubs][BEL Nanopubs] with document metadata like Name, Description, and Version. The supported document formats are BEL script, XBEL, RDF, and BNJ - BEL Nanopub JSON file.
 
 <a name="dataset"></a>
 ### Dataset
@@ -116,5 +126,6 @@ A database used to store [BEL Nanopubs][BEL Nanopubs]. It facilitates management
 [Nanopub Store]:           #bel_nanopub_store
 [BEL RDF Model]:           http://wiki.openbel.org/display/OBP/BEL+RDF+Model
 
+<a name="bnj"></a>
 ### BNJ - BEL Nanopub JSON file
 BNJ (pronounced 'binge') is an array of BEL Nanopubs in JSON format.  This is the most complete representation of a BEL Nanopub with associated metadata and includes namespace and annotation references.  It is also the best format for importing and exporting BEL content from the OpenBEL API (BEL Nanopub Store). 
