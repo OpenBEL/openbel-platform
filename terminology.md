@@ -101,9 +101,24 @@ A file containing a collection of [BEL Nanopubs][BEL Nanopubs] with document met
 ### Dataset
 The representation of a [BEL Document][BEL Document] within the OpenBEL API. This provides access to document metadata as well as the collection of [BEL Nanopubs][BEL Nanopub] stored in the OpenBEL API that originate from the [BEL Document][BEL Document].
 
-<a name="expression"></a>
-### Expression
+<a name="bel_expression"></a>
+### BEL Expression
 A string encoded in BEL that may represent a parameter (e.g. *AKT1*, *GO:"apoptotic process"*), term (e.g. *bp(GO:"apoptotic process")*), or statement (e.g. *p(HGNC:AKT1) increases bp(GO:"apoptotic process")*).
+
+<a name="bel_term"></a>
+### BEL Term 
+BEL Term, e.g. *bp(GO:"apoptotic process")* or *p(HGNC:AKT1)*, a BEL function and the function parameters
+
+<a name="bel_parameter"></a>
+### BEL Parameter 
+A BEL parameter is a BEL function parameter which may be another BEL function, a BEL entity, or a BEL function modifier
+* act(p(HGNC:VHL)) directlyIncreases deg(p(HGNC:HIF1A)) -- the 'act' function has a BEL function as a parameter p()
+* p(HGNC:AKT1,pmod(P,T,308)) -- the p() function has a BEL entity (HGNC:AKT1) and a pmod() function modifier
+
+<a name="bel_entity"></a>
+### BEL Entity
+A BEL entity is a biological/chemical entity or concept found as a parameter of a BEL function.  The BEL entity may be composed of a BEL namespace and an identifier, but it does not have to have a namespace which may lead to an ambiguous identifier for the BEL entity.  Example BEL entity: HGNC:AKT1 which is the AKT1 identifier in the HGNC namespace (Human Gene Nomenclature Committee).
+
 
 <a name="bel_nanopub_store"></a>
 ### BEL Nanopub Store
